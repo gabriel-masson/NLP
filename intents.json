@@ -11,18 +11,7 @@
         "Arboviroses são doenças causadas por vírus transmitidos por artrópodes, como mosquitos. No Brasil, os principais vetores são os mosquitos do gênero Aedes, especialmente o Aedes aegypti, que transmite dengue, zika, chikungunya e febre amarela urbana."
       ]
     },
-    {
-      "tag": "sintomas_arboviroses",
-      "patterns": [
-        "Quais os sintomas da dengue?",
-        "Sintomas da zika?",
-        "Quais são os sintomas das arboviroses?",
-        "Como saber se estou com chikungunya?"
-      ],
-      "responses": [
-        "Dengue: febre alta (>38°C), dor no corpo e articulações, dor atrás dos olhos, mal-estar, falta de apetite, dor de cabeça e manchas vermelhas no corpo.\n\nZika: febre baixa, erupções cutâneas, coceira, dor nas articulações, conjuntivite e dor de cabeça.\n\nChikungunya: febre alta, dores intensas nas articulações, dor muscular, dor de cabeça e erupções na pele."
-      ]
-    },
+
     {
       "tag": "diagnostico",
       "patterns": [
@@ -42,7 +31,7 @@
         "Posso me vacinar contra febre amarela?"
       ],
       "responses": [
-        "Dengue: Sim, o Brasil incorporou em 2024 a vacina contra dengue no Sistema Único de Saúde (SUS).\n\nFebre Amarela: Sim, a vacina é eficaz e está disponível nas Unidades Básicas de Saúde.\n\nZika e Chikungunya: Atualmente, não há vacinas disponíveis para uso público."
+        "Dengue: O Brasil incorporou em 2024 a vacina contra dengue no Sistema Único de Saúde (SUS).\n\nFebre Amarela: Sim, a vacina é eficaz e está disponível nas Unidades Básicas de Saúde.\n\nZika e Chikungunya: Atualmente, não há vacinas disponíveis para uso público."
       ]
     },
     {
@@ -75,7 +64,7 @@
         "Já tive dengue, posso pegar de novo?"
       ],
       "responses": [
-        "Sim, existem quatro sorotipos do vírus da dengue (DENV-1 a DENV-4). A infecção por um sorotipo confere imunidade apenas contra ele, permitindo infecções subsequentes por outros sorotipos."
+        "Existem quatro sorotipos do vírus da dengue (DENV-1 a DENV-4). A infecção por um sorotipo confere imunidade apenas contra ele, permitindo infecções subsequentes por outros sorotipos."
       ]
     },
     {
@@ -86,7 +75,7 @@
         "É verdade que o mosquito pode usar água suja?"
       ],
       "responses": [
-        "Sim, embora prefira água limpa, o Aedes aegypti pode se adaptar e utilizar água suja para reprodução, especialmente em ambientes urbanos."
+        "O Aedes aegypti pode se adaptar e utilizar água suja para reprodução, especialmente em ambientes urbanos."
       ]
     },
     {
@@ -108,7 +97,7 @@
         "Aedes aegypti transmite febre amarela?"
       ],
       "responses": [
-        "Sim, além da dengue, zika e chikungunya, o Aedes aegypti também pode transmitir a febre amarela urbana."
+        "Além da dengue, zika e chikungunya, o Aedes aegypti também pode transmitir a febre amarela urbana."
       ]
     },
     {
@@ -171,10 +160,11 @@
       "patterns": [
         "A chikungunya pode deixar sequelas?",
         "Quais são as complicações da chikungunya?",
-        "É verdade que as dores continuam depois da chikungunya?"
+        "É verdade que as dores continuam depois da chikungunya?",
+        "Há sequelas da chikungunya?"
       ],
       "responses": [
-        "Sim. Em alguns casos, as dores articulares podem persistir por meses ou anos após a fase aguda, caracterizando a forma crônica da chikungunya. Isso é mais comum em idosos e pessoas com comorbidades."
+        "Em alguns casos, as dores articulares podem persistir por meses ou anos após a fase aguda, caracterizando a forma crônica da chikungunya. Isso é mais comum em idosos e pessoas com comorbidades."
       ]
     },
     {
@@ -314,7 +304,8 @@
       "patterns": [
         "Quais os riscos do Zika na gravidez?",
         "O que acontece se grávida pegar Zika?",
-        "Zika na gestação é perigoso?"
+        "Zika na gestação é perigoso?",
+        "Há preoblemas com Zika na gravidez?"
       ],
       "responses": [
         "A infecção pelo Zika durante a gravidez pode causar a Síndrome Congênita do Zika, que inclui microcefalia e outras alterações neurológicas no feto. O risco é maior no primeiro trimestre."
@@ -360,7 +351,9 @@
         "Explique o que é a dengue",
         "Qual a definição de dengue?"
       ],
-      "responses": []
+      "responses": [
+        "A dengue é uma doença infecciosa viral causada por quatro sorotipos do vírus DENV (1 a 4), transmitida pela picada da fêmea do mosquito Aedes aegypti. É considerada uma arbovirose e representa um grande problema de saúde pública no Brasil e em outros países tropicais."
+      ]
     },
     {
       "tag": "sintomas_dengue",
@@ -369,7 +362,9 @@
         "Como saber se estou com dengue?",
         "Sintomas de dengue"
       ],
-      "responses": []
+      "responses": [
+        "Os sintomas mais comuns da dengue incluem: febre alta, dor de cabeça, dor atrás dos olhos, dores musculares e nas articulações, náuseas e vômitos, manchas vermelhas na pele e cansaço extremo. Em casos graves, podem ocorrer sangramentos e queda de pressão arterial."
+      ]
     },
     {
       "tag": "transmissao_dengue",
@@ -378,7 +373,9 @@
         "Como se pega dengue?",
         "Dengue passa de pessoa para pessoa?"
       ],
-      "responses": []
+      "responses": [
+        "A transmissão da dengue ocorre pela picada da fêmea do mosquito Aedes aegypti infectada com o vírus. A dengue não é transmitida de pessoa para pessoa."
+      ]
     },
     {
       "tag": "periodo_incubacao_dengue",
@@ -387,7 +384,9 @@
         "Quanto tempo leva para aparecer os sintomas da dengue?",
         "Incubação do vírus da dengue"
       ],
-      "responses": []
+      "responses": [
+        "O período de incubação do vírus da dengue varia de 3 a 15 dias após a picada do mosquito infectado, sendo mais comum entre 4 e 7 dias."
+      ]
     },
     {
       "tag": "tratamento_dengue",
@@ -396,7 +395,9 @@
         "Como tratar a dengue?",
         "Qual o remédio para dengue?"
       ],
-      "responses": []
+      "responses": [
+        "Não há tratamento antiviral específico para a dengue. O tratamento é sintomático, com repouso, hidratação e uso de analgésicos como paracetamol. Medicamentos como ácido acetilsalicílico (aspirina) e anti-inflamatórios não esteroides devem ser evitados devido ao risco de sangramentos."
+      ]
     },
     {
       "tag": "sinais_alerta_dengue",
@@ -405,7 +406,9 @@
         "Como saber se a dengue está grave?",
         "Sinais de dengue grave"
       ],
-      "responses": []
+      "responses": [
+        "Os sinais de alerta para formas graves da dengue incluem: dor abdominal intensa, vômitos persistentes, sangramentos (nas gengivas, nariz, urina ou fezes), tontura ou desmaios e dificuldade para respirar. Ao apresentar esses sintomas, é fundamental procurar atendimento médico imediato."
+      ]
     },
     {
       "tag": "grupos_risco_dengue",
@@ -414,7 +417,9 @@
         "Quais grupos têm mais risco com dengue?",
         "Dengue grave em quem é mais comum?"
       ],
-      "responses": []
+      "responses": [
+        "Pessoas com maior risco de desenvolver formas graves da dengue incluem: crianças menores de 2 anos, idosos, gestantes e pessoas com doenças crônicas, como diabetes e hipertensão. Nesses grupos, a dengue pode evoluir para formas mais graves com maior frequência."
+      ]
     },
     {
       "tag": "prevencao_dengue",
@@ -423,7 +428,9 @@
         "O que fazer para evitar dengue?",
         "Dicas de prevenção contra dengue"
       ],
-      "responses": []
+      "responses": [
+        "As principais medidas de prevenção da dengue são: eliminar criadouros do mosquito evitando água parada, manter caixas d'água bem fechadas, limpar calhas e ralos regularmente, além de usar repelentes e telas em portas e janelas. A prevenção é a forma mais eficaz de combater a dengue."
+      ]
     },
     {
       "tag": "vacina_dengue",
@@ -432,16 +439,9 @@
         "Tem vacina para dengue?",
         "Quem pode tomar vacina da dengue?"
       ],
-      "responses": []
-    },
-    {
-      "tag": "reinfeccao_dengue",
-      "patterns": [
-        "Quem já teve dengue pode pegar de novo?",
-        "Posso pegar dengue mais de uma vez?",
-        "É possível contrair dengue novamente?"
-      ],
-      "responses": []
+      "responses": [
+        "Existe uma vacina aprovada para uso no Brasil. No entanto, sua aplicação é recomendada para pessoas que já tiveram dengue anteriormente, com intervalo de seis meses após a infecção."
+      ]
     }
   ]
 }
