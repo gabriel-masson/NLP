@@ -15,7 +15,7 @@ nltk.download('rslp')
 spacyPT = pt_core_news_md.load()
 
 
-with open('intents.json', 'r', encoding='utf-8') as f:
+with open('intents_arboviroses.json', 'r', encoding='utf-8') as f:
     data = json.load(f)
 
 
@@ -65,4 +65,4 @@ modelo_completo = {
 }
 
 # Salvar apenas objetos serializáveis
-dump(modelo_completo, 'modelo.joblib')
+dump(modelo_completo, 'modelo_arboviroses.joblib')

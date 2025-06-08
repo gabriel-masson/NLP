@@ -1,7 +1,8 @@
 from Chat import Chat
 import gradio as gr
+import os
+from pathlib import Path
 
-# Instancia seu chatbot
 chat = Chat()
 
 # Função para adaptar ao novo formato do Gradio (role-based messages)
